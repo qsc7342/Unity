@@ -111,6 +111,7 @@ public class GameManager : MonoBehaviour {
 
 	void Start ()
     {
+		Screen.SetResolution(1920, 1200, true);
         clearText.enabled = false;
         loseText.enabled = false;
         audioSource = roundStartText.GetComponent<AudioSource>();
