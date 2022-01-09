@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,8 +10,20 @@ public class CharacterStat : MonoBehaviour
     public int damage = 5;
     public int cost = 130;
     public int upgradeCost = 200;
+    public float coolTime = 2.0f;
     // Start is called before the first frame update
+    private Animator animator;
 
+
+    public int attacked(int damage) {
+        hp -= damage;
+        if(hp <= 0) {
+            animator.SetTrigger("Die");
+            Destroy(gameObject, 1.5f);
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
+        return hp;
+    }
     public bool canCreate(int seed) {
         if(cost <= seed) return true;
         return false;
@@ -48,7 +60,7 @@ public class CharacterStat : MonoBehaviour
     }
     void Start()
     {
-        
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
