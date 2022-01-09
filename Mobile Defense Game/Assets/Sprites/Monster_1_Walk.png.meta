@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 8b2209af72d9c4b4f9e003f2ca44ec17
+guid: 691c3b1fac4a77640979d7a10da0bfa4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1533199376547539431
+      213: 21300000
     second: Monster_1_Walk_0
   - first:
-      213: -4155165534350533294
+      213: 21300002
     second: Monster_1_Walk_1
   - first:
-      213: 2031474000484487297
+      213: 21300004
     second: Monster_1_Walk_2
   - first:
-      213: 8720049156661296315
+      213: 21300006
     second: Monster_1_Walk_3
   externalObjects: {}
   serializedVersion: 11
@@ -73,7 +73,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -86,7 +86,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -98,7 +98,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
@@ -110,19 +110,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -134,7 +122,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -142,9 +130,9 @@ TextureImporter:
       name: Monster_1_Walk_0
       rect:
         serializedVersion: 2
-        x: 143
+        x: 141
         y: 7
-        width: 714
+        width: 717
         height: 961
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e967f0b5b4074510800000000000000
-      internalID: 1533199376547539431
+      spriteID: 84aae32a60587134495a4a0ed2aac563
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -166,7 +154,7 @@ TextureImporter:
         x: 1155
         y: 3
         width: 711
-        height: 986
+        height: 989
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d171626f2e556c0800000000000000
-      internalID: -4155165534350533294
+      spriteID: 291cb1c2ef0567747ad8b3f82d1f70f3
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -185,9 +173,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2162
-        y: 32
+        y: 31
         width: 714
-        height: 937
+        height: 938
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,8 +183,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 180d15917de313c10800000000000000
-      internalID: 2031474000484487297
+      spriteID: cf8cadc649db9ee4db438687b55940ee
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -205,10 +193,10 @@ TextureImporter:
       name: Monster_1_Walk_3
       rect:
         serializedVersion: 2
-        x: 3175
-        y: 3
-        width: 710
-        height: 986
+        x: 3172
+        y: 0
+        width: 717
+        height: 993
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbcbdb6d186d30970800000000000000
-      internalID: 8720049156661296315
+      spriteID: 56626a7110ccdc44a86ff95b8fa12af5
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -225,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 2db0dd7a3b3ff2f4291c9800b21deabc
     internalID: 0
     vertices: []
     indices: 
